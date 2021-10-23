@@ -36,7 +36,7 @@ int main() {
       variance_dif = numbers[index] - mean;
       variance_sum += variance_dif * variance_dif;
     }
-    variance = variance_sum / (N_consecutive_numbers - 1);
+    variance = variance_sum / (N_consecutive_numbers);
     //write mean/variance into arrays
     means[i] = mean;
     variances[i] = variance;
